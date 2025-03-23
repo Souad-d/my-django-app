@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Your Uploaded Files</h2>
+  <ul>
+    {% for file in files %}
+      <li>
+        <a href="{{ file.file.url }}" target="_blank">{{ file.file.name }}</a> 
+        (Uploaded at: {{ file.uploaded_at }})
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

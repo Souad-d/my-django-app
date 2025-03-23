@@ -52,4 +52,4 @@ docker-compose.override.yml
 
 # Media files - You might want to ignore uploads to prevent large files from being tracked
 # You should configure media file storage in production environments (e.g., S3, etc.)
-uploads/
+uploads/settings.py
