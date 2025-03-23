@@ -1,0 +1,55 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtualenv
+venv/
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+media/
+
+# Environment files
+.env
+
+# MariaDB backups and dumps
+*.sql
+*.sql.gz
+
+# Temporary files
+*.bak
+*.swp
+*.swo
+
+# Django migrations (you may want to include migrations in version control)
+# but sometimes people exclude them from specific use cases.
+# migrations/
+# !migrations/__init__.py
+
+# Logs
+*.log
+
+# Mac OS X system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDE settings
+.idea/
+
+# Docker-related files
+docker-compose.override.yml
+*.env
+
+# Media files - You might want to ignore uploads to prevent large files from being tracked
+# You should configure media file storage in production environments (e.g., S3, etc.)
+uploads/
