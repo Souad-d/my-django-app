@@ -23,6 +23,7 @@ def upload_file(request):
 def uploaded_files(request):
     files = UploadedFile.objects.filter(user=request.user)  # Only show files uploaded by the current user
     print("my modification 1 for git versioning")
+    print("my modification 2 for git versioning")
     return render(request, 'uploads/uploads.html', {'files': files})
 
 # uploads/views.py
